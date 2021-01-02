@@ -1,0 +1,31 @@
+{
+  "name": "case_study",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "antd": "^4.9.4",
+    "bootstrap": "^4.5.3",
+    "react": "^17.0.1",
+    "react-bootstrap": "^1.4.0",
+    "react-dom": "^17.0.1",
+    "react-router-dom": "^5.2.0",
+    "react-scripts": "4.0.1"
+  },
+  "scripts": {
+    "analyze": "source-map-explorer build/static/js/main.*",
+    "start": "react-scripts start",
+    "build": "react-scripts build  && cp build/index.html build/404.html",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject"
+  },
+  "browserslist": [
+    ">0.2%",
+    "not dead",
+    "not ie <= 11",
+    "not op_mini all"
+  ],
+  "devDependencies": {
+    "eslint": "^7.17.0",
+    "eslint-plugin-react": "^7.22.0"
+  }
+}
